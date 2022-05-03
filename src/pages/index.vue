@@ -39,6 +39,15 @@ const { t } = useI18n()
         v-html="t('about.inspiration')"
       />
     </div>
+    <div
+      class="flex-center flex-col md-flex-row-reverse md-gap-8 w-full justify-between"
+    >
+      <ToolsAndDatabases class="md-text-right" />
+      <p
+        class="prose text-center md-text-left"
+        v-html="t('about.inspiration')"
+      />
+    </div>
     <!-- eslint-enable vue/no-v-html -->
   </section>
   <section class="mt-16">
